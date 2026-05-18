@@ -1,0 +1,329 @@
+PROJECT_NAME: THIAGARAJA MILLS MW
+PROJECT_ID: RTS-004
+
+SALES_PERSON: Kiran Kumar
+
+START_DATE: 01 Apr 2025
+TARGET_COMPLETION: 15 Sep 2025
+LAST_UPDATE: 18 May 2025
+
+PROJECT_VALUE: 8.5 Cr
+TOTAL_PAYMENT_RECEIVED: 3.2 Cr
+
+==================================================
+ENGINEERING
+==================================================
+
+ITEM: String Layout
+STATUS: Completed
+
+ITEM: SLD Drawing
+STATUS: Completed
+
+ITEM: Structure Design
+STATUS: Completed
+
+ITEM: Safety Line Layout
+STATUS: Completed
+
+ITEM: Earthing Layout
+STATUS: Completed
+
+ITEM: Walkway Layout
+STATUS: Completed
+
+ITEM: Water Line Layout
+STATUS: Completed
+
+==================================================
+PROCUREMENT
+==================================================
+
+ITEM: Solar Modules
+STATUS: Completed
+
+ITEM: Inverters
+STATUS: Completed
+
+ITEM: MMS Structure
+STATUS: Completed
+
+ITEM: ACDB
+STATUS: Completed
+
+ITEM: AC Cables
+STATUS: Po in Process 
+
+ITEM: DC Cables
+STATUS: PO in process
+
+ITEM: Earthing Material
+STATUS: Completed
+
+ITEM: Walkway Material
+STATUS: In Progress
+
+ITEM: Lightning Arrestor
+STATUS: Ordered
+
+ITEM: Other BOS
+STATUS: Ordered
+
+ITEM: Waterline / Sprinkler
+STATUS: Completed
+
+
+==================================================
+DELIVERY
+==================================================
+
+ITEM: Solar Modules
+STATUS: Delivered
+
+ITEM: Inverters
+STATUS: 2 inverter Pending
+
+ITEM: MMS Structure
+STATUS: Delivered
+
+ITEM: ACDB Panels
+STATUS: 100% Delivered
+
+ITEM: DC Cable
+STATUS: Delivered
+
+ITEM: AC Cable
+STATUS: Delivered
+
+ITEM: Walkway Material
+STATUS: Transit Delay
+
+ITEM: Earthing Material
+STATUS: Delivered
+
+ITEM: Safety Life Line
+STATUS: Delivered
+
+ITEM: Waterline / Sprinkler
+STATUS: Delivered
+
+ITEM: Other BOS
+STATUS: Delivered
+==================================================
+ERECTION_PROGRESS
+==================================================
+
+CATEGORY: Handrail Installation
+PROGRESS: 100
+STATUS: Completed
+
+CATEGORY: Skylight Mesh Work
+PROGRESS: 100
+STATUS: Completed
+
+CATEGORY: Structure Installation
+PROGRESS: 85
+STATUS: In Progress
+
+CATEGORY: Module Installation
+PROGRESS: 60
+STATUS: In Progress
+
+CATEGORY: Walkway Installation
+PROGRESS: 40
+STATUS: In Progress
+
+CATEGORY: DC Cable Laying
+PROGRESS: 55
+STATUS: In Progress
+
+CATEGORY: Safety Line Installation
+PROGRESS: 40
+STATUS: In Progress
+
+CATEGORY: Waterline/Sprinkler Installation
+PROGRESS: 40
+STATUS: In Progress
+
+CATEGORY: AC Cable Laying
+PROGRESS: 45
+STATUS: In Progress
+
+CATEGORY: Earthing Work
+PROGRESS: 70
+STATUS: In Progress
+
+CATEGORY: Inverter Installation
+PROGRESS: 35
+STATUS: Critical
+
+CATEGORY: ACDB Installation
+PROGRESS: 25
+STATUS: Critical
+
+CATEGORY: Lightning Protection
+PROGRESS: 30
+STATUS: In Progress
+
+CATEGORY: Cable Termination Work
+PROGRESS: 40
+STATUS: In Progress
+
+CATEGORY: Testing & Commissioning
+PROGRESS: 10
+STATUS: Not Started
+
+CATEGORY: DG Sync / Data Monitoring
+PROGRESS: 10
+STATUS: Not Started
+
+==================================================
+LIASONING
+==================================================
+
+ITEM: CEIG Approval
+STATUS: In Progress
+
+ITEM: Net Meter Approval
+STATUS: Pending
+
+ITEM: DISCOM Coordination
+STATUS: In Progress
+
+ITEM: Shutdown Approval
+STATUS: Pending
+
+ITEM: Synchronization Approval
+STATUS: Not Started
+
+ITEM: Electrical Inspector Visit
+STATUS: Awaiting Schedule
+
+==================================================
+HOTO
+==================================================
+
+ITEM: Client Training
+STATUS: Not Started
+
+ITEM: Handover Document
+STATUS: Not Started
+
+ITEM: O&M Manual Submission
+STATUS: In Preparation
+
+ITEM: Final Inspection
+STATUS: Pending
+
+ITEM: Warranty Document Submission
+STATUS: Pending
+
+ITEM: Final Handover
+STATUS: Not Started
+
+==================================================
+PROJECT_SCOPE
+==================================================
+
+Design, Engineering, Supply,
+Installation, Testing and Commissioning
+of 2 MW Rooftop Solar Power Plant.
+
+Supply and installation of Solar Modules,
+String Inverters, Module Mounting Structure,
+ACDB, DCDB and complete cabling system.
+
+Complete earthing, lightning protection,
+walkway arrangement and synchronization support.
+
+Net Metering documentation,
+CEIG approval coordination,
+Shutdown support and HOTO activities included.
+
+==================================================
+CLIENT_SCOPE
+==================================================
+
+Client to provide shutdown support
+during synchronization activities.
+
+Client to arrange roof access permission
+and safety clearance.
+
+Client to provide DG synchronization panel
+interface support.
+
+Client to arrange power shutdown
+for testing activities.
+
+==================================================
+CRITICAL_TASKS
+==================================================
+
+TASK: Inverter Delivery Delay
+STATUS: Critical
+
+TASK: Shutdown Approval Pending
+STATUS: Critical
+
+TASK: Walkway Material Shortage
+STATUS: Critical
+
+TASK: DG Sync Integration Pending
+STATUS: Critical
+
+==================================================
+SITE_ISSUES
+==================================================
+
+ISSUE: Roof access restriction
+STATUS: Open
+
+ISSUE: Material shifting delay
+STATUS: Open
+
+ISSUE: Rain affecting installation
+STATUS: Monitoring
+
+ISSUE: Limited shutdown window
+STATUS: Critical
+
+==================================================
+MANAGEMENT_ATTENTION
+==================================================
+
+ISSUE: Additional manpower required
+STATUS: Approval Needed
+
+ISSUE: Vendor payment release
+STATUS: Urgent
+
+ISSUE: Client shutdown escalation
+STATUS: High Priority
+
+ISSUE: Synchronization support
+STATUS: Immediate Attention
+
+==================================================
+PENDING_TASKS
+==================================================
+
+TASK: ACDB Approval
+OWNER: Electrical Team
+DUE_DATE: 20 May 2025
+
+TASK: Inverter Dispatch
+OWNER: SCM
+DUE_DATE: 18 May 2025
+
+TASK: CEIG Drawing Submission
+OWNER: Design Team
+DUE_DATE: 22 May 2025
+
+TASK: Walkway Material Delivery
+OWNER: Procurement
+DUE_DATE: 24 May 2025
+
+TASK: Roof Clearance
+OWNER: Site Team
+DUE_DATE: 21 May 2025
