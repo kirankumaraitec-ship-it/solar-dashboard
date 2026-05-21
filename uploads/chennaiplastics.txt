@@ -1,0 +1,342 @@
+PROJECT_NAME: CHENNAI PLASTICS 861.21 KW ( CAPEX )
+PROJECT_ID: RTS-001
+
+SALES_PERSON: 
+
+START_DATE: 
+TARGET_COMPLETION:
+LAST_UPDATE:
+
+PROJECT_VALUE:
+TOTAL_PAYMENT_RECEIVED:
+
+==================================================
+ENGINEERING
+==================================================
+
+ITEM: String Layout
+STATUS: Completed
+
+ITEM: SLD Drawing
+STATUS: Completed
+
+ITEM: Structure Design
+STATUS: Completed
+
+ITEM: Safety Line Layout
+STATUS: Completed
+
+ITEM: Earthing Layout
+STATUS: Completed
+
+ITEM: Walkway Layout
+STATUS: Completed
+
+ITEM: Water Line Layout
+STATUS: Completed
+
+ITEM: BOM 
+STATUS: Completed
+
+ITEM: Procurement Approvals
+STATUS: Pending 
+
+
+==================================================
+PROCUREMENT
+==================================================
+
+ITEM: Handrail
+STATUS: customer ordered
+
+ITEM: skylight Mesh -NA
+STATUS: pending
+
+ITEM: I&C ORDER
+STATUS: pending
+
+ITEM: Solar Modules
+STATUS: block mail sent
+
+ITEM: Inverters
+STATUS: block mail sent
+
+ITEM: MMS Structure
+STATUS: ordered
+
+ITEM: ACDB
+STATUS: process
+
+ITEM: AC Cables
+STATUS: pending
+
+ITEM: DC Cables
+STATUS:pending
+
+
+ITEM: Earthing Material
+STATUS: pending M8
+
+ITEM: Walkway Material
+STATUS: Pending
+
+ITEM: Lightning Arrestor
+STATUS:  ordered
+
+ITEM: Other BOS
+STATUS:pending
+
+
+ITEM: Waterline / Sprinkler
+STATUS: 2 pending
+
+
+==================================================
+DELIVERY
+==================================================
+
+ITEM: Solar Modules
+STATUS: pending
+
+ITEM: Inverters
+STATUS: pending
+
+ITEM: MMS Structure
+STATUS: pending
+
+ITEM: ACDB Panels
+STATUS:  pending
+
+ITEM: DC Cable
+STATUS: pending
+
+ITEM: AC Cable
+STATUS:  pending
+
+ITEM: Walkway Material
+STATUS:  pending
+
+ITEM: Earthing Material
+STATUS:  pending
+
+ITEM: Safety Life Line
+STATUS: pending
+
+ITEM: Waterline / Sprinkler
+STATUS: pending
+
+ITEM: Other BOS
+STATUS: pending
+==================================================
+ERECTION_PROGRESS
+==================================================
+
+CATEGORY: Handrail Installation
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: Skylight Mesh Work
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: Structure Installation
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: Module Installation
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: Walkway Installation
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: DC Cable Laying
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: Safety Line Installation
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: Waterline/Sprinkler Installation
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: AC Cable Laying
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: Earthing Work
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: Inverter Installation
+PROGRESS: 0
+STATUS:   not started
+
+CATEGORY: ACDB Installation
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: Lightning Protection
+PROGRESS: 0
+STATUS: In Progress
+
+CATEGORY: Cable Termination Work
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: Testing & Commissioning
+PROGRESS: 0
+STATUS: not started
+
+CATEGORY: DG Sync / Data Monitoring
+PROGRESS: 0
+STATUS: not started
+
+==================================================
+LIASONING
+==================================================
+
+ITEM: CEIG Approval
+STATUS: In Progress
+
+ITEM: Net Meter Approval
+STATUS: Pending
+
+ITEM: DISCOM Coordination
+STATUS: In Progress
+
+ITEM: Synchronization Approval
+STATUS: Not Started
+
+ITEM: Net Meter Installation 
+STATUS: Awaiting Schedule
+
+
+ITEM: Final Approval Document to client 
+STATUS: Awaiting Schedule
+
+==================================================
+HOTO
+==================================================
+
+ITEM: Client Training
+STATUS: Not Started
+
+ITEM: Handover Document
+STATUS: Not Started
+
+ITEM: Final Inspection
+STATUS: Pending
+
+ITEM: Final Handover
+STATUS: Not Started
+
+==================================================
+PROJECT_SCOPE
+==================================================
+
+Design, Engineering, Supply,
+Installation, Testing and Commissioning
+of 2 MW Rooftop Solar Power Plant.
+
+Supply and installation of Solar Modules,
+String Inverters, Module Mounting Structure,
+ACDB, DCDB and complete cabling system.
+
+Complete earthing, lightning protection,
+walkway arrangement and synchronization support.
+
+Net Metering documentation,
+CEIG approval coordination,
+Shutdown support and HOTO activities included.
+
+==================================================
+CLIENT_SCOPE
+==================================================
+
+Client to provide shutdown support
+during synchronization activities.
+
+Client to arrange roof access permission
+and safety clearance.
+
+Client to provide DG synchronization panel
+interface support.
+
+Client to arrange power shutdown
+for testing activities.
+
+==================================================
+CRITICAL_TASKS
+==================================================
+
+TASK: Inverter Delivery Delay
+STATUS: Critical
+
+TASK: Shutdown Approval Pending
+STATUS: Critical
+
+TASK: Walkway Material Shortage
+STATUS: Critical
+
+TASK: DG Sync Integration Pending
+STATUS: Critical
+
+==================================================
+SITE_ISSUES
+==================================================
+
+ISSUE: Roof access restriction
+STATUS: Open
+
+ISSUE: Material shifting delay
+STATUS: Open
+
+ISSUE: Rain affecting installation
+STATUS: Monitoring
+
+ISSUE: Limited shutdown window
+STATUS: Critical
+
+==================================================
+MANAGEMENT_ATTENTION
+==================================================
+
+ISSUE: Additional manpower required
+STATUS: Approval Needed
+
+ISSUE: Vendor payment release
+STATUS: Urgent
+
+ISSUE: Client shutdown escalation
+STATUS: High Priority
+
+ISSUE: Synchronization support
+STATUS: Immediate Attention
+
+==================================================
+PENDING_TASKS
+==================================================
+
+TASK: ACDB Approval
+OWNER: Electrical Team
+DUE_DATE: 20 May 2025
+
+TASK: Inverter Dispatch
+OWNER: SCM
+DUE_DATE: 18 May 2025
+
+TASK: CEIG Drawing Submission
+OWNER: Design Team
+DUE_DATE: 22 May 2025
+
+TASK: Walkway Material Delivery
+OWNER: Procurement
+DUE_DATE: 24 May 2025
+
+TASK: Roof Clearance
+OWNER: Site Team
+DUE_DATE: 21 May 2025

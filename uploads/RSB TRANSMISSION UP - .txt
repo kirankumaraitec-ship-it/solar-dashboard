@@ -1,14 +1,14 @@
-PROJECT_NAME: THIAGARAJA MILLS MW
+PROJECT_NAME: RSB TRANSMISSION UP 194.04 KWp( CAPEX )
 PROJECT_ID: RTS-001
 
-SALES_PERSON: Kiran Kumar
+SALES_PERSON: 
 
-START_DATE: 01 Apr 2025
-TARGET_COMPLETION: 15 Sep 2025
-LAST_UPDATE: 18 May 2025
+START_DATE: 
+TARGET_COMPLETION:
+LAST_UPDATE:
 
-PROJECT_VALUE: 8.5 Cr
-TOTAL_PAYMENT_RECEIVED: 3.2 Cr
+PROJECT_VALUE:
+TOTAL_PAYMENT_RECEIVED:
 
 ==================================================
 ENGINEERING
@@ -35,42 +35,60 @@ STATUS: Completed
 ITEM: Water Line Layout
 STATUS: Completed
 
+ITEM: BOM 
+STATUS: pending
+
+ITEM: Procurement Approvals
+STATUS: Pending
+
 ==================================================
 PROCUREMENT
 ==================================================
+ITEM: Handrail
+STATUS:  pending
+
+ITEM: skylight Mesh -NA
+STATUS:  pending
+
+ITEM: I&C ORDER
+STATUS: pending
 
 ITEM: Solar Modules
-STATUS: Completed
+STATUS: pending
 
 ITEM: Inverters
-STATUS: Completed
+STATUS: pending
 
 ITEM: MMS Structure
-STATUS: Completed
+STATUS: pending
 
 ITEM: ACDB
-STATUS: Completed
+STATUS: pending
 
 ITEM: AC Cables
-STATUS: Po in Process 
+STATUS: pending
 
 ITEM: DC Cables
-STATUS: PO in process
+STATUS: pending
+
 
 ITEM: Earthing Material
-STATUS: Completed
+STATUS: pending
 
 ITEM: Walkway Material
-STATUS: In Progress
+STATUS: pending
+
 
 ITEM: Lightning Arrestor
-STATUS: Ordered
+STATUS: pending
+
 
 ITEM: Other BOS
-STATUS: Ordered
+STATUS: pending
+
 
 ITEM: Waterline / Sprinkler
-STATUS: Completed
+STATUS: pending
 
 
 ==================================================
@@ -78,104 +96,104 @@ DELIVERY
 ==================================================
 
 ITEM: Solar Modules
-STATUS: Delivered
+STATUS: pending
 
 ITEM: Inverters
-STATUS: 2 inverter Pending
+STATUS: pending
 
 ITEM: MMS Structure
-STATUS: Delivered
+STATUS: pending
 
 ITEM: ACDB Panels
-STATUS: 100% Delivered
+STATUS: pending
 
 ITEM: DC Cable
-STATUS: Delivered
+STATUS: pending
 
 ITEM: AC Cable
-STATUS: Delivered
+STATUS: pending
 
 ITEM: Walkway Material
-STATUS: Transit Delay
+STATUS: pending
 
 ITEM: Earthing Material
-STATUS: Delivered
+STATUS: pending
 
 ITEM: Safety Life Line
-STATUS: Delivered
+STATUS: pending
 
 ITEM: Waterline / Sprinkler
-STATUS: Delivered
+STATUS: pending
 
 ITEM: Other BOS
-STATUS: Delivered
+STATUS: PENDING
 ==================================================
 ERECTION_PROGRESS
 ==================================================
 
 CATEGORY: Handrail Installation
-PROGRESS: 100
-STATUS: Completed
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Skylight Mesh Work
-PROGRESS: 100
-STATUS: Completed
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Structure Installation
-PROGRESS: 85
-STATUS: In Progress
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Module Installation
-PROGRESS: 60
-STATUS: In Progress
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Walkway Installation
-PROGRESS: 40
-STATUS: In Progress
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: DC Cable Laying
-PROGRESS: 55
-STATUS: In Progress
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Safety Line Installation
-PROGRESS: 40
-STATUS: In Progress
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Waterline/Sprinkler Installation
-PROGRESS: 40
-STATUS: In Progress
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: AC Cable Laying
-PROGRESS: 45
-STATUS: In Progress
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Earthing Work
-PROGRESS: 70
-STATUS: In Progress
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Inverter Installation
-PROGRESS: 35
-STATUS: Critical
+PROGRESS: 0
+STATUS:   not started
 
 CATEGORY: ACDB Installation
-PROGRESS: 25
-STATUS: Critical
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Lightning Protection
-PROGRESS: 30
-STATUS: In Progress
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Cable Termination Work
-PROGRESS: 40
-STATUS: In Progress
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: Testing & Commissioning
-PROGRESS: 10
-STATUS: Not Started
+PROGRESS: 0
+STATUS: not started
 
 CATEGORY: DG Sync / Data Monitoring
-PROGRESS: 10
-STATUS: Not Started
+PROGRESS: 0
+STATUS: not started
 
 ==================================================
 LIASONING
@@ -190,13 +208,14 @@ STATUS: Pending
 ITEM: DISCOM Coordination
 STATUS: In Progress
 
-ITEM: Shutdown Approval
-STATUS: Pending
-
 ITEM: Synchronization Approval
 STATUS: Not Started
 
-ITEM: Electrical Inspector Visit
+ITEM: Net Meter Installation 
+STATUS: Awaiting Schedule
+
+
+ITEM: Final Approval Document to client 
 STATUS: Awaiting Schedule
 
 ==================================================
@@ -209,13 +228,7 @@ STATUS: Not Started
 ITEM: Handover Document
 STATUS: Not Started
 
-ITEM: O&M Manual Submission
-STATUS: In Preparation
-
 ITEM: Final Inspection
-STATUS: Pending
-
-ITEM: Warranty Document Submission
 STATUS: Pending
 
 ITEM: Final Handover

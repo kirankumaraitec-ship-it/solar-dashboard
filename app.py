@@ -6,6 +6,35 @@ app = Flask(__name__)
 UPLOAD_FOLDER = "uploads"
 
 # =========================================================
+# STATUS CHECK
+# =========================================================
+
+def is_completed(status):
+
+    status = status.lower().strip()
+
+    completed_words = [
+        "completed",
+        "approved",
+        "100%",
+        "delivered",
+        "po placed",
+        "ordered"
+    ]
+
+    for word in completed_words:
+
+        if word in status:
+            return True
+
+    return False
+
+
+app.jinja_env.globals.update(
+    is_completed=is_completed
+)
+
+# =========================================================
 # READ PROJECT FILE
 # =========================================================
 
@@ -197,9 +226,11 @@ def read_project_file(filepath):
 
         elif line.startswith("PROGRESS:") and current_section == "erection":
 
-            current_item["progress"] = int(
-                line.split(":",1)[1].strip()
-            )
+            progress_text = line.split(":",1)[1].strip()
+
+            progress_text = progress_text.replace("%","")
+
+            current_item["progress"] = int(progress_text)
 
         elif line.startswith("STATUS:") and current_section == "erection":
 
@@ -255,22 +286,141 @@ def read_project_file(filepath):
             )
 
     # =========================================================
-    # OVERALL PROGRESS
+    # OVERALL PROGRESS (WEIGHTAGE BASED)
     # =========================================================
 
-    total_progress = 0
+    # ENGINEERING = 10%
 
-    for item in project["erection_progress"]:
-        total_progress += item["progress"]
+    engineering_completed = 0
+
+    for item in project["engineering"]:
+
+        if is_completed(item["status"]):
+            engineering_completed += 1
+
+    engineering_progress = 0
+
+    if len(project["engineering"]) > 0:
+
+        engineering_progress = (
+            engineering_completed /
+            len(project["engineering"])
+        ) * 100
+
+
+    # PROCUREMENT = 30%
+
+    procurement_completed = 0
+
+    for item in project["procurement"]:
+
+        if is_completed(item["status"]):
+            procurement_completed += 1
+
+    procurement_progress = 0
+
+    if len(project["procurement"]) > 0:
+
+        procurement_progress = (
+            procurement_completed /
+            len(project["procurement"])
+        ) * 100
+
+
+    # DELIVERY = 10%
+
+    delivery_completed = 0
+
+    for item in project["delivery"]:
+
+        if is_completed(item["status"]):
+            delivery_completed += 1
+
+    delivery_progress = 0
+
+    if len(project["delivery"]) > 0:
+
+        delivery_progress = (
+            delivery_completed /
+            len(project["delivery"])
+        ) * 100
+
+
+    # ERECTION = 40%
+
+    erection_progress = 0
 
     if len(project["erection_progress"]) > 0:
 
-        project["overall_progress"] = int(
-            total_progress / len(project["erection_progress"])
+        total_erection = 0
+
+        for item in project["erection_progress"]:
+
+            total_erection += item["progress"]
+
+        erection_progress = (
+            total_erection /
+            len(project["erection_progress"])
         )
 
-    else:
-        project["overall_progress"] = 0
+
+    # LIASONING = 5%
+
+    liasoning_completed = 0
+
+    for item in project["liasoning"]:
+
+        if is_completed(item["status"]):
+            liasoning_completed += 1
+
+    liasoning_progress = 0
+
+    if len(project["liasoning"]) > 0:
+
+        liasoning_progress = (
+            liasoning_completed /
+            len(project["liasoning"])
+        ) * 100
+
+
+    # HOTO = 5%
+
+    hoto_completed = 0
+
+    for item in project["hoto"]:
+
+        if is_completed(item["status"]):
+            hoto_completed += 1
+
+    hoto_progress = 0
+
+    if len(project["hoto"]) > 0:
+
+        hoto_progress = (
+            hoto_completed /
+            len(project["hoto"])
+        ) * 100
+
+
+    # FINAL OVERALL PROGRESS
+
+    overall = (
+
+        (engineering_progress * 0.10) +
+
+        (procurement_progress * 0.30) +
+
+        (delivery_progress * 0.10) +
+
+        (erection_progress * 0.40) +
+
+        (liasoning_progress * 0.05) +
+
+        (hoto_progress * 0.05)
+
+    )
+
+    project["overall_progress"] = int(overall)
 
     return project
 
@@ -306,34 +456,6 @@ def load_projects():
                 print("ERROR:", e)
 
     return projects
-
-
-# =========================================================
-# STATUS CHECK
-# =========================================================
-
-def is_completed(status):
-
-    status = status.lower()
-
-    completed_words = [
-        "completed",
-        "approved",
-        "100%",
-        "delivered"
-    ]
-
-    for word in completed_words:
-
-        if word in status:
-            return True
-
-    return False
-
-
-app.jinja_env.globals.update(
-    is_completed=is_completed
-)
 
 
 # =========================================================
