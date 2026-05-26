@@ -171,24 +171,24 @@ PROGRESS: 100
 STATUS: completed
 
 CATEGORY: AC Cable Laying
-PROGRESS: 50
-STATUS: pending
+PROGRESS: 100
+STATUS: delivered
 
 CATEGORY: Earthing Work
-PROGRESS: 50
-STATUS: pending
+PROGRESS: 100
+STATUS: delivered
 
 CATEGORY: Inverter Installation
-PROGRESS: 50
-STATUS:   pending
+PROGRESS: 100
+STATUS:   delivered
 
 CATEGORY: ACDB Installation
-PROGRESS: 50
-STATUS: pending
+PROGRESS: 100
+STATUS: delivered
 
 CATEGORY: Lightning Protection
-PROGRESS: 0
-STATUS:pending
+PROGRESS: 100
+STATUS: delivered
 
 CATEGORY: Cable Termination Work
 PROGRESS: 0

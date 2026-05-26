@@ -1,4 +1,4 @@
-PROJECT_NAME: APOLLO BGS ( OPEX )
+PROJECT_NAME:DAECHANG 1300.32KWP (opex )
 PROJECT_ID: RTS-001
 
 SALES_PERSON: 
@@ -14,24 +14,26 @@ TOTAL_PAYMENT_RECEIVED:
 CURRENT_STATUS_REMARKS
 ==================================================
 
-REMARK: Final Termination Pending.
-REMARK: Client Solar Evacuation Panel Not ready .
-REMARK: Alternate Termination point decided to start the Generation.
+REMARK: 
+REMARK: 
+REMARK: 
+REMARKS : 
+
 
 ==================================================
 PROJECT_DETAILS
 ==================================================
 
-Evolve - Module Supply ( 720 Wp )
-Evolve - Inverter Supply
+Evolve - 
+Evolve -
+BOS - 
 
 
 ==================================================
 CLIENT_SCOPE_OF_WORK
 ==================================================
-HANDRAIL 
 Shutdown Support
-SKYLIGHT MESHWORK 
+
 
 ==================================================
 ENGINEERING
@@ -64,164 +66,210 @@ STATUS: Completed
 ITEM: Procurement Approvals
 STATUS: Completed
 
-ITEM: BOM approval
+ITEM: BOM APPROVAL 
 STATUS: Completed
-
-
-
 
 
 ==================================================
 PROCUREMENT
 ==================================================
-ITEM: I&C ORDER
-STATUS: ordered
+
+ITEM: Handrail
+STATUS:   ordered
+
+ITEM: I&C ORDER Released
+STATUS: Pending
 
 ITEM: Solar Modules
-STATUS: ordered
+STATUS: Pending
+
+
 
 ITEM: Inverters
-STATUS: ordered
+STATUS: Pending
+
+
 
 ITEM: MMS Structure
-STATUS: ordered
+STATUS: Pending
+
+
 
 ITEM: ACDB
-STATUS:  ordered
+STATUS:  Pending
+
+
 
 ITEM: AC Cables
-STATUS: ordered
+STATUS: Pending
+
+
 
 ITEM: DC Cables
-STATUS: ordered
+STATUS: Pending
+
+
 
 
 ITEM: Earthing Material
-STATUS: ordered
+STATUS: Pending
+
+
 
 ITEM: Walkway Material
-STATUS: ordered
+STATUS: Pending
+
+
 
 ITEM: Lightning Arrestor
-STATUS: ordered
+STATUS: Pending
+
+
 
 ITEM: Other BOS
-STATUS: ordered
+STATUS: Pending
 
-ITEM: Waterline 
-STATUS: ordered
+
+
+ITEM: Waterline
+STATUS:   Pending
+
+
+
+
 
 ==================================================
 DELIVERY
 ==================================================
 
 ITEM: Solar Modules
-STATUS:  Delivered
+STATUS:  Pending
+
 
 ITEM: Inverters
-STATUS:   Delivered
+STATUS:  Pending
 
+ 
 ITEM: MMS Structure
-STATUS:  Delivered
+STATUS:  Pending
+
 
 ITEM: ACDB Panels
-STATUS:  Delivered
+STATUS: Pending
+
 
 ITEM: DC Cable
-STATUS:  Delivered
+STATUS:  Pending
+
 
 ITEM: AC Cable
-STATUS: Delivered
+STATUS: Pending
+
 
 ITEM: Walkway Material
-STATUS:  Delivered
+STATUS:  Pending
+
 
 ITEM: Earthing Material
-STATUS:  Delivered
+STATUS:  Pending
+
 
 ITEM: Safety Life Line
-STATUS:  Delivered
+STATUS:  Pending
+
 
 ITEM: Waterline / Sprinkler
-STATUS:  Delivered
+STATUS:  Pending
+
 
 ITEM: Other BOS
-STATUS: Delivered
+STATUS: Pending
+
 
 ==================================================
 ERECTION_PROGRESS
 ==================================================
 
-CATEGORY: Handrail Installation - Customer Scope
-PROGRESS: 80
-STATUS: not started
+CATEGORY: Handrail Installation
+PROGRESS: 20
+STATUS: completed
 
-CATEGORY: Skylight Mesh Work - NA
-PROGRESS: 100
-STATUS: not started
 
 CATEGORY: Structure Installation
-PROGRESS: 100
+PROGRESS: 0
 STATUS: completed
 
 CATEGORY: Module Installation
-PROGRESS: 80
-STATUS: completed(damage)
+PROGRESS: 0
+STATUS: completed
 
 CATEGORY: Walkway Installation
-PROGRESS: 100
+PROGRESS: 0
 STATUS: completed
 
 CATEGORY: DC Cable Laying
-PROGRESS: 100
+PROGRESS: 0
 STATUS: completed
 
 CATEGORY: Safety Line Installation
 PROGRESS: 0
-STATUS: not started
+STATUS: completed
 
-CATEGORY: Waterline Installation
-PROGRESS: 100
+CATEGORY: Waterline/Sprinkler Installation
+PROGRESS: 0
 STATUS: completed
 
 CATEGORY: AC Cable Laying
-PROGRESS: 40
-STATUS: not started(on going )
+PROGRESS: 0
+STATUS: completed
 
 CATEGORY: Earthing Work
-PROGRESS: 10
-STATUS: not started
+PROGRESS: 0
+STATUS: completed
 
 CATEGORY: Inverter Installation
-PROGRESS: 100
-STATUS:   completed
+PROGRESS: 0
+STATUS:  completed
 
 CATEGORY: ACDB Installation
-PROGRESS: 50
-STATUS: not started
+PROGRESS: 0
+STATUS: completed
 
 CATEGORY: Lightning Protection
-PROGRESS: 50
-STATUS: In Progress
+PROGRESS:0
+STATUS: completed
 
 CATEGORY: Cable Termination Work
 PROGRESS: 0
-STATUS: not started
+STATUS: completed
 
 CATEGORY: Testing & Commissioning
 PROGRESS: 0
-STATUS: not started
+STATUS: completed
 
 CATEGORY: DG Sync / Data Monitoring
 PROGRESS: 0
-STATUS: not started
+STATUS: completed
 
 ==================================================
 LIASONING
 ==================================================
 
+ITEM: CEIG Approval
+STATUS: In Progress
+
+ITEM: Net Meter Approval
+STATUS: Pending
+
+ITEM: DISCOM Coordination
+STATUS: In Progress
+
 ITEM: Synchronization Approval
 STATUS: Not Started
+
+ITEM: Net Meter Installation 
+STATUS: Awaiting Schedule
+
 
 ITEM: Final Approval Document to client 
 STATUS: Awaiting Schedule
@@ -262,18 +310,19 @@ Net Metering documentation,
 CEIG approval coordination,
 Shutdown support and HOTO activities included.
 
+==================================================
+CLIENT_SCOPE
+==================================================
+
 
 ==================================================
 CRITICAL_TASKS
 ==================================================
 
 
-
 ==================================================
 SITE_ISSUES
 ==================================================
-
-
 
 ==================================================
 MANAGEMENT_ATTENTION

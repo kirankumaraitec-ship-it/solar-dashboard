@@ -1,4 +1,4 @@
-PROJECT_NAME: APOLLO BGS ( OPEX )
+PROJECT_NAME: PONDY OXIDES 1120KWP ( CAPEX )
 PROJECT_ID: RTS-001
 
 SALES_PERSON: 
@@ -14,24 +14,25 @@ TOTAL_PAYMENT_RECEIVED:
 CURRENT_STATUS_REMARKS
 ==================================================
 
-REMARK: Final Termination Pending.
-REMARK: Client Solar Evacuation Panel Not ready .
-REMARK: Alternate Termination point decided to start the Generation.
+REMARK: BOM FINALIZATION IN PROGRESS.
 
 ==================================================
 PROJECT_DETAILS
 ==================================================
 
-Evolve - Module Supply ( 720 Wp )
-Evolve - Inverter Supply
+Evolve - Module Supply ( 640 Wp )
+Evolve - Inverter Supply ( 110 KVA * 9 NOS)
+MAJOR - Hand Rail  + Client Panel Extension + 
+        Ladder  + Sprinkler 
 
 
 ==================================================
 CLIENT_SCOPE_OF_WORK
 ==================================================
-HANDRAIL 
 Shutdown Support
-SKYLIGHT MESHWORK 
+civil work 
+Pump 
+wifi + MFM meter For DG sync
 
 ==================================================
 ENGINEERING
@@ -55,176 +56,202 @@ STATUS: Completed
 ITEM: Walkway Layout
 STATUS: Completed
 
-ITEM: Water Line Layout
+ITEM: Sprinkler
 STATUS: Completed
 
 ITEM: BOM 
 STATUS: Completed
 
-ITEM: Procurement Approvals
-STATUS: Completed
+ITEM: Technical Approvals
+STATUS: Pending
 
-ITEM: BOM approval
-STATUS: Completed
-
-
+ITEM: BOM Approval (RVS)
+STATUS: Pending
 
 
 
 ==================================================
 PROCUREMENT
 ==================================================
-ITEM: I&C ORDER
-STATUS: ordered
+
+ITEM: I&C ORDER 
+STATUS: Pending
 
 ITEM: Solar Modules
-STATUS: ordered
+STATUS: Pending
 
 ITEM: Inverters
-STATUS: ordered
+STATUS: Pending
+
 
 ITEM: MMS Structure
-STATUS: ordered
+STATUS: Pending
+
 
 ITEM: ACDB
-STATUS:  ordered
+STATUS: Pending
+
 
 ITEM: AC Cables
-STATUS: ordered
+STATUS: Pending
+
 
 ITEM: DC Cables
-STATUS: ordered
+STATUS: Pending
 
 
 ITEM: Earthing Material
-STATUS: ordered
+STATUS: Pending
+
 
 ITEM: Walkway Material
-STATUS: ordered
+STATUS: Pending
+
 
 ITEM: Lightning Arrestor
-STATUS: ordered
+STATUS: Pending
 
 ITEM: Other BOS
-STATUS: ordered
+STATUS: Pending
 
-ITEM: Waterline 
-STATUS: ordered
+ITEM: Waterline / Sprinkler
+STATUS: Pending
+
+
 
 ==================================================
 DELIVERY
 ==================================================
 
 ITEM: Solar Modules
-STATUS:  Delivered
+STATUS: Pending
 
 ITEM: Inverters
-STATUS:   Delivered
+STATUS:  Pending
 
 ITEM: MMS Structure
-STATUS:  Delivered
+STATUS: Pending
 
 ITEM: ACDB Panels
-STATUS:  Delivered
+STATUS: Pending
+
 
 ITEM: DC Cable
-STATUS:  Delivered
+STATUS:  Pending
 
 ITEM: AC Cable
-STATUS: Delivered
+STATUS: Pending
+
 
 ITEM: Walkway Material
-STATUS:  Delivered
+STATUS:  Pending
+
 
 ITEM: Earthing Material
-STATUS:  Delivered
+STATUS: Pending
 
 ITEM: Safety Life Line
-STATUS:  Delivered
+STATUS:  Pending
+
 
 ITEM: Waterline / Sprinkler
-STATUS:  Delivered
+STATUS: Pending
+
 
 ITEM: Other BOS
-STATUS: Delivered
+STATUS: Pending
 
 ==================================================
 ERECTION_PROGRESS
 ==================================================
-
-CATEGORY: Handrail Installation - Customer Scope
-PROGRESS: 80
-STATUS: not started
-
-CATEGORY: Skylight Mesh Work - NA
-PROGRESS: 100
-STATUS: not started
-
 CATEGORY: Structure Installation
-PROGRESS: 100
-STATUS: completed
+PROGRESS: 0
+STATUS: Pending
 
 CATEGORY: Module Installation
-PROGRESS: 80
-STATUS: completed(damage)
+PROGRESS: 0
+STATUS: Pending
+
 
 CATEGORY: Walkway Installation
-PROGRESS: 100
-STATUS: completed
+PROGRESS: 0
+STATUS: Pending
+
 
 CATEGORY: DC Cable Laying
-PROGRESS: 100
-STATUS: completed
+PROGRESS: 0
+STATUS: Pending
+
 
 CATEGORY: Safety Line Installation
 PROGRESS: 0
-STATUS: not started
+STATUS: Pending
 
-CATEGORY: Waterline Installation
-PROGRESS: 100
-STATUS: completed
+
+CATEGORY: Waterline/Sprinkler Installation
+PROGRESS: 0
+STATUS: Pending
+
 
 CATEGORY: AC Cable Laying
-PROGRESS: 40
-STATUS: not started(on going )
+PROGRESS: 0
+STATUS: Pending
+
 
 CATEGORY: Earthing Work
-PROGRESS: 10
-STATUS: not started
+PROGRESS: 0
+STATUS: Pending
+
 
 CATEGORY: Inverter Installation
-PROGRESS: 100
-STATUS:   completed
+PROGRESS: 0
+STATUS:  Pending
 
 CATEGORY: ACDB Installation
-PROGRESS: 50
-STATUS: not started
+PROGRESS: 0
+STATUS: Pending
 
 CATEGORY: Lightning Protection
-PROGRESS: 50
-STATUS: In Progress
+PROGRESS:0
+STATUS: Pending
+
 
 CATEGORY: Cable Termination Work
 PROGRESS: 0
-STATUS: not started
+STATUS: completed
 
 CATEGORY: Testing & Commissioning
 PROGRESS: 0
-STATUS: not started
+STATUS: completed
 
 CATEGORY: DG Sync / Data Monitoring
 PROGRESS: 0
-STATUS: not started
+STATUS: completed
 
 ==================================================
 LIASONING
 ==================================================
 
+ITEM: CEIG Approval
+STATUS: pending
+
+ITEM: Net Meter Approval
+STATUS: pending
+
+
+ITEM: DISCOM Coordination
+STATUS: pending
+
 ITEM: Synchronization Approval
-STATUS: Not Started
+STATUS: pending
+
+
+ITEM: Net Meter Installation 
+STATUS: pending
+
 
 ITEM: Final Approval Document to client 
-STATUS: Awaiting Schedule
+STATUS: pending
 
 ==================================================
 HOTO
@@ -256,27 +283,27 @@ ACDB, DCDB and complete cabling system.
 Complete earthing, lightning protection,
 walkway arrangement and synchronization support.
 
-HANDRAIL , SKYLIGHT.
-
 Net Metering documentation,
 CEIG approval coordination,
 Shutdown support and HOTO activities included.
 
+==================================================
+CLIENT_SCOPE
+==================================================
 
 ==================================================
 CRITICAL_TASKS
 ==================================================
 
-
+TASK: DG Sync Integration Pending
+STATUS: Critical
 
 ==================================================
 SITE_ISSUES
 ==================================================
 
 
-
 ==================================================
 MANAGEMENT_ATTENTION
 ==================================================
-
 

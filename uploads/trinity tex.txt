@@ -1,4 +1,4 @@
-PROJECT_NAME: TRINITY TEX 80.15KWP
+PROJECT_NAME: TRINITY TEX 80.15KWP ( capex)
 PROJECT_ID: RTS-001
 
 SALES_PERSON: 
@@ -47,9 +47,6 @@ PROCUREMENT
 ==================================================
 
 ITEM: Handrail
-STATUS:   ordered
-
-ITEM: skylight Mesh -NA
 STATUS:   ordered
 
 ITEM: I&C ORDER
@@ -105,13 +102,13 @@ ITEM: MMS Structure
 STATUS:  Delivered
 
 ITEM: ACDB Panels
-STATUS: Pending
+STATUS: Pending (available 26may)
 
 ITEM: DC Cable
 STATUS:  Delivered
 
 ITEM: AC Cable
-STATUS: Pending
+STATUS: Pending (not dispatched)
 
 ITEM: Walkway Material
 STATUS:  Delivered
@@ -126,30 +123,26 @@ ITEM: Waterline / Sprinkler
 STATUS:  Delivered
 
 ITEM: Other BOS
-STATUS: pending
+STATUS: Delivered
 ==================================================
 ERECTION_PROGRESS
 ==================================================
 
 CATEGORY: Handrail Installation
-PROGRESS: 0
-STATUS: not started
-
-CATEGORY: Skylight Mesh Work
-PROGRESS: 0
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Structure Installation
-PROGRESS: 0
+PROGRESS: 100
 STATUS: not started
 
 CATEGORY: Module Installation
-PROGRESS: 0
+PROGRESS: 100
 STATUS: not started
 
 CATEGORY: Walkway Installation
-PROGRESS: 0
-STATUS: not started
+PROGRESS: 80
+STATUS: completed
 
 CATEGORY: DC Cable Laying
 PROGRESS: 0
@@ -199,23 +192,33 @@ STATUS: not started
 LIASONING
 ==================================================
 
-ITEM: CEIG Approval
-STATUS: In Progress
+ITEM: Documentation 
+STATUS: completed
 
-ITEM: Net Meter Approval
-STATUS: Pending
+ITEM: Registration 
+STATUS: completed
 
-ITEM: DISCOM Coordination
-STATUS: In Progress
+ITEM: Drawing Approval
+STATUS: Awaiting Schedule
 
-ITEM: Synchronization Approval
-STATUS: Not Started
+ITEM: Inspection
+STATUS: Awaiting Schedule
 
-ITEM: Net Meter Installation 
+ITEM: Completion Report
 STATUS: Awaiting Schedule
 
 
-ITEM: Final Approval Document to client 
+ITEM: Defect Report
+STATUS: Awaiting Schedule
+
+ITEM: Rectification Report
+STATUS: Not Started
+
+ITEM: Safety Certificate Obtained 
+STATUS: Awaiting Schedule
+
+
+ITEM: Tangedco Net Metering 
 STATUS: Awaiting Schedule
 
 ==================================================

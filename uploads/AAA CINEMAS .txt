@@ -1,4 +1,4 @@
-PROJECT_NAME: APOLLO BGS ( OPEX )
+PROJECT_NAME: AAA CINEMAS 136KWP ( opex )
 PROJECT_ID: RTS-001
 
 SALES_PERSON: 
@@ -14,24 +14,25 @@ TOTAL_PAYMENT_RECEIVED:
 CURRENT_STATUS_REMARKS
 ==================================================
 
-REMARK: Final Termination Pending.
-REMARK: Client Solar Evacuation Panel Not ready .
-REMARK: Alternate Termination point decided to start the Generation.
+REMARK: Final Termination Completed.
+REMARK: Net Metering Completed .
+REMARK: Online Monitoring Pending .
+REMARKS : DG sync Pending 
+
 
 ==================================================
 PROJECT_DETAILS
 ==================================================
 
-Evolve - Module Supply ( 720 Wp )
-Evolve - Inverter Supply
+Evolve - Module Supply ( 640 Wp )
+Evolve - Inverter Supply ( 100 kva )
+BOS - Outsourced to Anor Team 
 
 
 ==================================================
 CLIENT_SCOPE_OF_WORK
 ==================================================
-HANDRAIL 
 Shutdown Support
-SKYLIGHT MESHWORK 
 
 ==================================================
 ENGINEERING
@@ -61,20 +62,20 @@ STATUS: Completed
 ITEM: BOM 
 STATUS: Completed
 
-ITEM: Procurement Approvals
-STATUS: Completed
-
-ITEM: BOM approval
+ITEM: Technical Approvals
 STATUS: Completed
 
 
+ITEM: BOM Approval 
+STATUS: Completed
 
 
 
 ==================================================
 PROCUREMENT
 ==================================================
-ITEM: I&C ORDER
+
+ITEM: I&C ORDER with BOS 
 STATUS: ordered
 
 ITEM: Solar Modules
@@ -108,8 +109,10 @@ STATUS: ordered
 ITEM: Other BOS
 STATUS: ordered
 
-ITEM: Waterline 
-STATUS: ordered
+ITEM: Waterline / Sprinkler
+STATUS:   ordered
+
+
 
 ==================================================
 DELIVERY
@@ -125,7 +128,7 @@ ITEM: MMS Structure
 STATUS:  Delivered
 
 ITEM: ACDB Panels
-STATUS:  Delivered
+STATUS: Delivered
 
 ITEM: DC Cable
 STATUS:  Delivered
@@ -147,26 +150,16 @@ STATUS:  Delivered
 
 ITEM: Other BOS
 STATUS: Delivered
-
 ==================================================
 ERECTION_PROGRESS
 ==================================================
-
-CATEGORY: Handrail Installation - Customer Scope
-PROGRESS: 80
-STATUS: not started
-
-CATEGORY: Skylight Mesh Work - NA
-PROGRESS: 100
-STATUS: not started
-
 CATEGORY: Structure Installation
 PROGRESS: 100
 STATUS: completed
 
 CATEGORY: Module Installation
-PROGRESS: 80
-STATUS: completed(damage)
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Walkway Installation
 PROGRESS: 100
@@ -174,57 +167,73 @@ STATUS: completed
 
 CATEGORY: DC Cable Laying
 PROGRESS: 100
-STATUS: completed
+STATUS:completed
 
 CATEGORY: Safety Line Installation
-PROGRESS: 0
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
-CATEGORY: Waterline Installation
+CATEGORY: Waterline/Sprinkler Installation
 PROGRESS: 100
 STATUS: completed
 
 CATEGORY: AC Cable Laying
-PROGRESS: 40
-STATUS: not started(on going )
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Earthing Work
-PROGRESS: 10
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Inverter Installation
 PROGRESS: 100
-STATUS:   completed
+STATUS:  completed
 
 CATEGORY: ACDB Installation
-PROGRESS: 50
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Lightning Protection
-PROGRESS: 50
-STATUS: In Progress
+PROGRESS:100
+STATUS: completed
 
 CATEGORY: Cable Termination Work
-PROGRESS: 0
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Testing & Commissioning
-PROGRESS: 0
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: DG Sync / Data Monitoring
 PROGRESS: 0
-STATUS: not started
+STATUS: completed
 
 ==================================================
 LIASONING
 ==================================================
 
+ITEM: CEIG Approval
+STATUS: completed
+
+ITEM: Net Meter Approval
+STATUS: completed
+
+
+ITEM: DISCOM Coordination
+STATUS: completed
+
+
 ITEM: Synchronization Approval
-STATUS: Not Started
+STATUS: completed
+
+
+ITEM: Net Meter Installation 
+STATUS: completed
 
 ITEM: Final Approval Document to client 
-STATUS: Awaiting Schedule
+STATUS: completed
+
 
 ==================================================
 HOTO
@@ -256,27 +265,27 @@ ACDB, DCDB and complete cabling system.
 Complete earthing, lightning protection,
 walkway arrangement and synchronization support.
 
-HANDRAIL , SKYLIGHT.
-
 Net Metering documentation,
 CEIG approval coordination,
 Shutdown support and HOTO activities included.
 
+==================================================
+CLIENT_SCOPE
+==================================================
 
 ==================================================
 CRITICAL_TASKS
 ==================================================
 
-
+TASK: DG Sync Integration Pending
+STATUS: Critical
 
 ==================================================
 SITE_ISSUES
 ==================================================
 
 
-
 ==================================================
 MANAGEMENT_ATTENTION
 ==================================================
-
 

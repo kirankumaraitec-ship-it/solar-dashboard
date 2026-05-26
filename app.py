@@ -41,6 +41,7 @@ app.jinja_env.globals.update(
 def read_project_file(filepath):
 
     project = {
+
         "project_name": "",
         "project_id": "",
         "sales_person": "",
@@ -63,6 +64,12 @@ def read_project_file(filepath):
         "critical_tasks": [],
         "site_issues": [],
         "management_attention": [],
+
+        # NEW SECTIONS
+
+        "current_status_remarks": [],
+        "project_details": [],
+        "client_scope_work": [],
 
         "overall_progress": 0
     }
@@ -112,6 +119,15 @@ def read_project_file(filepath):
         # SECTION DETECTION
         # =====================================================
 
+        elif "CURRENT_STATUS_REMARKS" in line:
+            current_section = "remarks"
+
+        elif "PROJECT_DETAILS" in line:
+            current_section = "project_details"
+
+        elif "CLIENT_SCOPE_OF_WORK" in line:
+            current_section = "client_scope_work"
+
         elif "ENGINEERING" in line:
             current_section = "engineering"
 
@@ -144,6 +160,34 @@ def read_project_file(filepath):
 
         elif "MANAGEMENT_ATTENTION" in line:
             current_section = "management"
+
+        # =====================================================
+        # CURRENT STATUS REMARKS
+        # =====================================================
+
+        elif line.startswith("REMARK:") and current_section == "remarks":
+
+            project["current_status_remarks"].append(
+                line.split(":",1)[1].strip()
+            )
+
+        # =====================================================
+        # PROJECT DETAILS
+        # =====================================================
+
+        elif current_section == "project_details":
+
+            if "====" not in line:
+                project["project_details"].append(line)
+
+        # =====================================================
+        # CLIENT SCOPE OF WORK
+        # =====================================================
+
+        elif current_section == "client_scope_work":
+
+            if "====" not in line:
+                project["client_scope_work"].append(line)
 
         # =====================================================
         # ENGINEERING
@@ -286,10 +330,8 @@ def read_project_file(filepath):
             )
 
     # =========================================================
-    # OVERALL PROGRESS (WEIGHTAGE BASED)
+    # OVERALL PROGRESS
     # =========================================================
-
-    # ENGINEERING = 10%
 
     engineering_completed = 0
 
@@ -308,8 +350,6 @@ def read_project_file(filepath):
         ) * 100
 
 
-    # PROCUREMENT = 30%
-
     procurement_completed = 0
 
     for item in project["procurement"]:
@@ -326,8 +366,6 @@ def read_project_file(filepath):
             len(project["procurement"])
         ) * 100
 
-
-    # DELIVERY = 10%
 
     delivery_completed = 0
 
@@ -346,8 +384,6 @@ def read_project_file(filepath):
         ) * 100
 
 
-    # ERECTION = 40%
-
     erection_progress = 0
 
     if len(project["erection_progress"]) > 0:
@@ -363,8 +399,6 @@ def read_project_file(filepath):
             len(project["erection_progress"])
         )
 
-
-    # LIASONING = 5%
 
     liasoning_completed = 0
 
@@ -383,8 +417,6 @@ def read_project_file(filepath):
         ) * 100
 
 
-    # HOTO = 5%
-
     hoto_completed = 0
 
     for item in project["hoto"]:
@@ -402,20 +434,13 @@ def read_project_file(filepath):
         ) * 100
 
 
-    # FINAL OVERALL PROGRESS
-
     overall = (
 
         (engineering_progress * 0.10) +
-
         (procurement_progress * 0.30) +
-
         (delivery_progress * 0.10) +
-
         (erection_progress * 0.40) +
-
         (liasoning_progress * 0.05) +
-
         (hoto_progress * 0.05)
 
     )
@@ -467,6 +492,26 @@ def home():
 
     projects = load_projects()
 
+    projects = sorted(
+        projects,
+        key=lambda x: x["overall_progress"],
+        reverse=True
+    )
+
+    capex_projects = []
+    opex_projects = []
+
+    for project in projects:
+
+        project["original_index"] = load_projects().index(project)
+
+        name = project["project_name"].lower()
+
+        if "opex" in name:
+            opex_projects.append(project)
+        else:
+            capex_projects.append(project)
+
     html = '''
 
 <!DOCTYPE html>
@@ -503,23 +548,53 @@ body{
     padding:30px;
 }
 
-.project-grid{
+.main-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:25px;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
 }
 
-.card{
+.section-card{
     background:white;
     border-radius:12px;
     padding:25px;
     box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
-.project-title{
-    font-size:28px;
+.section-title{
+    font-size:30px;
     font-weight:bold;
-    margin-bottom:20px;
+    margin-bottom:25px;
+    color:#0b2c59;
+}
+
+.project-row{
+    display:grid;
+    grid-template-columns:60px 1fr 180px 250px;
+    gap:15px;
+    align-items:center;
+    padding:15px 0;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.serial-number{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.project-name{
+    font-size:18px;
+    font-weight:bold;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
 }
 
 .progress-bg{
@@ -527,7 +602,6 @@ body{
     height:24px;
     border-radius:20px;
     overflow:hidden;
-    margin-top:15px;
 }
 
 .progress-fill{
@@ -539,15 +613,16 @@ body{
     font-weight:bold;
 }
 
-button{
-    width:100%;
-    margin-top:20px;
-    padding:12px;
-    border:none;
-    background:#2563eb;
-    color:white;
-    border-radius:8px;
-    cursor:pointer;
+@media(max-width:1200px){
+
+.main-grid{
+    grid-template-columns:1fr;
+}
+
+.project-row{
+    grid-template-columns:1fr;
+}
+
 }
 
 </style>
@@ -559,19 +634,37 @@ button{
 <div class="main-wrapper">
 
 <div class="header">
-ROOFTOP PROJECT DASHBOARD
+ROOFTOP PROJECT DASHBOARD - UPDATE 26/05/2026
 </div>
 
 <div class="container">
 
-<div class="project-grid">
+<div class="main-grid">
 
-{% for project in projects %}
+<!-- CAPEX -->
 
-<div class="card">
+<div class="section-card">
 
-<div class="project-title">
+<div class="section-title">
+CAPEX PROJECTS
+</div>
+
+{% for project in capex_projects %}
+
+<div class="project-row">
+
+<div class="serial-number">
+{{ loop.index }}
+</div>
+
+<div class="project-name">
 {{ project.project_name }}
+</div>
+
+<div>
+<a href="/project/{{ project.original_index }}">
+<button>Open Dashboard</button>
+</a>
 </div>
 
 <div class="progress-bg">
@@ -585,13 +678,54 @@ style="width:{{ project.overall_progress }}%">
 
 </div>
 
-<a href="/project/{{ loop.index0 }}">
+</div>
+
+{% endfor %}
+
+</div>
+
+<!-- OPEX -->
+
+<div class="section-card">
+
+<div class="section-title">
+OPEX PROJECTS
+</div>
+
+{% for project in opex_projects %}
+
+<div class="project-row">
+
+<div class="serial-number">
+{{ loop.index }}
+</div>
+
+<div class="project-name">
+{{ project.project_name }}
+</div>
+
+<div>
+<a href="/project/{{ project.original_index }}">
 <button>Open Dashboard</button>
 </a>
+</div>
+
+<div class="progress-bg">
+
+<div class="progress-fill"
+style="width:{{ project.overall_progress }}%">
+
+{{ project.overall_progress }}%
+
+</div>
+
+</div>
 
 </div>
 
 {% endfor %}
+
+</div>
 
 </div>
 
@@ -606,7 +740,9 @@ style="width:{{ project.overall_progress }}%">
 
     return render_template_string(
         html,
-        projects=projects
+        projects=projects,
+        capex_projects=capex_projects,
+        opex_projects=opex_projects
     )
 
 
@@ -660,6 +796,13 @@ body{
     padding:15px;
     margin-top:20px;
     box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.grid-3{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+    margin-top:20px;
 }
 
 .grid-6{
@@ -754,6 +897,10 @@ grid-template-columns:repeat(2,1fr);
 
 @media(max-width:900px){
 
+.grid-3{
+grid-template-columns:1fr;
+}
+
 .grid-6{
 grid-template-columns:1fr;
 }
@@ -786,6 +933,48 @@ grid-template-columns:1fr;
 
 </div>
 
+<!-- TOP INFORMATION SECTION -->
+
+<div class="grid-3">
+
+<div class="card">
+
+<h2>Current Status Remarks</h2>
+
+<ul>
+{% for item in project.current_status_remarks %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Project Details</h2>
+
+<ul>
+{% for item in project.project_details %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Client Scope Of Work</h2>
+
+<ul>
+{% for item in project.client_scope_work %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+</div>
+
+</div>
+
 <!-- OVERALL -->
 
 <div class="card">
@@ -808,8 +997,6 @@ style="width:{{ project.overall_progress }}%">
 <!-- TOP SECTION -->
 
 <div class="grid-6">
-
-<!-- ENGINEERING -->
 
 <div class="card">
 
@@ -839,8 +1026,6 @@ style="width:{{ project.overall_progress }}%">
 
 </div>
 
-<!-- PROCUREMENT -->
-
 <div class="card">
 
 <h2>Procurement</h2>
@@ -869,8 +1054,6 @@ style="width:{{ project.overall_progress }}%">
 
 </div>
 
-<!-- DELIVERY -->
-
 <div class="card">
 
 <h2>Delivery</h2>
@@ -898,8 +1081,6 @@ style="width:{{ project.overall_progress }}%">
 {% endfor %}
 
 </div>
-
-<!-- ERECTION -->
 
 <div class="card">
 
@@ -939,8 +1120,6 @@ style="width:{{ item.progress }}%">
 
 </div>
 
-<!-- LIASONING -->
-
 <div class="card">
 
 <h2>Liasoning</h2>
@@ -968,8 +1147,6 @@ style="width:{{ item.progress }}%">
 {% endfor %}
 
 </div>
-
-<!-- HOTO -->
 
 <div class="card">
 

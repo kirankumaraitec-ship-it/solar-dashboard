@@ -1,4 +1,4 @@
-PROJECT_NAME: APOLLO BGS ( OPEX )
+PROJECT_NAME:FG GLASS 1500KWP ( CAPEX )
 PROJECT_ID: RTS-001
 
 SALES_PERSON: 
@@ -11,27 +11,26 @@ PROJECT_VALUE:
 TOTAL_PAYMENT_RECEIVED:
 
 ==================================================
-CURRENT_STATUS_REMARKS
+CURRENT STATUS REMARKS
 ==================================================
 
-REMARK: Final Termination Pending.
-REMARK: Client Solar Evacuation Panel Not ready .
-REMARK: Alternate Termination point decided to start the Generation.
+REMARK: Final Termination Pending
+
+REMARK: Balance 120 Panels to be implemented with BESS
 
 ==================================================
-PROJECT_DETAILS
+PROJECT DETAILS
 ==================================================
 
-Evolve - Module Supply ( 720 Wp )
+Evolve - Module Supply
 Evolve - Inverter Supply
-
+BOS - Outsourced with Installation
 
 ==================================================
 CLIENT_SCOPE_OF_WORK
 ==================================================
-HANDRAIL 
+
 Shutdown Support
-SKYLIGHT MESHWORK 
 
 ==================================================
 ENGINEERING
@@ -61,54 +60,22 @@ STATUS: Completed
 ITEM: BOM 
 STATUS: Completed
 
-ITEM: Procurement Approvals
+ITEM: Technical Approvals
 STATUS: Completed
-
-ITEM: BOM approval
-STATUS: Completed
-
-
-
 
 
 ==================================================
 PROCUREMENT
 ==================================================
-ITEM: I&C ORDER
+
+
+ITEM: BOS Order Released
 STATUS: ordered
 
 ITEM: Solar Modules
 STATUS: ordered
 
 ITEM: Inverters
-STATUS: ordered
-
-ITEM: MMS Structure
-STATUS: ordered
-
-ITEM: ACDB
-STATUS:  ordered
-
-ITEM: AC Cables
-STATUS: ordered
-
-ITEM: DC Cables
-STATUS: ordered
-
-
-ITEM: Earthing Material
-STATUS: ordered
-
-ITEM: Walkway Material
-STATUS: ordered
-
-ITEM: Lightning Arrestor
-STATUS: ordered
-
-ITEM: Other BOS
-STATUS: ordered
-
-ITEM: Waterline 
 STATUS: ordered
 
 ==================================================
@@ -125,7 +92,7 @@ ITEM: MMS Structure
 STATUS:  Delivered
 
 ITEM: ACDB Panels
-STATUS:  Delivered
+STATUS: Delivered
 
 ITEM: DC Cable
 STATUS:  Delivered
@@ -147,26 +114,25 @@ STATUS:  Delivered
 
 ITEM: Other BOS
 STATUS: Delivered
-
 ==================================================
 ERECTION_PROGRESS
 ==================================================
 
-CATEGORY: Handrail Installation - Customer Scope
-PROGRESS: 80
-STATUS: not started
-
-CATEGORY: Skylight Mesh Work - NA
-PROGRESS: 100
-STATUS: not started
-
-CATEGORY: Structure Installation
+CATEGORY: Handrail Installation
 PROGRESS: 100
 STATUS: completed
 
+CATEGORY: Skylight Mesh Work
+PROGRESS:100
+STATUS: completed
+
+CATEGORY: Structure Installation
+PROGRESS:100
+STATUS: completed
+
 CATEGORY: Module Installation
-PROGRESS: 80
-STATUS: completed(damage)
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Walkway Installation
 PROGRESS: 100
@@ -177,54 +143,52 @@ PROGRESS: 100
 STATUS: completed
 
 CATEGORY: Safety Line Installation
-PROGRESS: 0
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
-CATEGORY: Waterline Installation
+CATEGORY: Waterline/Sprinkler Installation
 PROGRESS: 100
 STATUS: completed
 
 CATEGORY: AC Cable Laying
-PROGRESS: 40
-STATUS: not started(on going )
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Earthing Work
-PROGRESS: 10
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Inverter Installation
 PROGRESS: 100
 STATUS:   completed
 
 CATEGORY: ACDB Installation
-PROGRESS: 50
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Lightning Protection
-PROGRESS: 50
-STATUS: In Progress
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Cable Termination Work
-PROGRESS: 0
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: Testing & Commissioning
-PROGRESS: 0
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
 CATEGORY: DG Sync / Data Monitoring
-PROGRESS: 0
-STATUS: not started
+PROGRESS: 100
+STATUS: completed
 
 ==================================================
 LIASONING
 ==================================================
 
-ITEM: Synchronization Approval
-STATUS: Not Started
+ITEM: 	BTM liasoning Work
+STATUS: Completed
 
-ITEM: Final Approval Document to client 
-STATUS: Awaiting Schedule
 
 ==================================================
 HOTO
@@ -258,21 +222,18 @@ walkway arrangement and synchronization support.
 
 HANDRAIL , SKYLIGHT.
 
-Net Metering documentation,
+Behind the Meter
 CEIG approval coordination,
 Shutdown support and HOTO activities included.
-
 
 ==================================================
 CRITICAL_TASKS
 ==================================================
 
 
-
 ==================================================
 SITE_ISSUES
 ==================================================
-
 
 
 ==================================================

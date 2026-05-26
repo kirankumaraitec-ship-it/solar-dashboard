@@ -11,6 +11,26 @@ PROJECT_VALUE:
 TOTAL_PAYMENT_RECEIVED:
 
 ==================================================
+CURRENT_STATUS_REMARKS
+==================================================
+
+REMARK: Material Delivered to receive Payment
+REMARK: Roof Turbo Fan to be removed to Start the Installation 
+
+==================================================
+PROJECT_DETAILS
+==================================================
+
+Evolve - Module Supply ( 640 Wp )
+Evolve - Inverter Supply ( 100 kva )
+
+==================================================
+CLIENT_SCOPE_OF_WORK
+==================================================
+Shutdown Support
+
+
+==================================================
 ENGINEERING
 ==================================================
 
@@ -41,14 +61,15 @@ STATUS: Completed
 ITEM: Procurement Approvals
 STATUS: Pending 
 
-
+ITEM: BOM Approval
+STATUS: Completed
 
 ==================================================
 PROCUREMENT
 ==================================================
 
-ITEM: I&C ORDER
-STATUS:pending
+ITEM: I&C ORDER Released 
+STATUS: Pending
 
 ITEM: Solar Modules
 STATUS: ordered
@@ -60,7 +81,7 @@ ITEM: MMS Structure
 STATUS: ordered
 
 ITEM: ACDB
-STATUS: waiting for GA diagram 
+STATUS: ordered 
 
 ITEM: AC Cables
 STATUS: ordered
@@ -81,7 +102,7 @@ ITEM: Other BOS
 STATUS: ordered
 
 
-ITEM: Waterline / Sprinkler
+ITEM: Waterline 
 STATUS:  ordered
 
 
@@ -90,37 +111,37 @@ DELIVERY
 ==================================================
 
 ITEM: Solar Modules
-STATUS: Pending
+STATUS: Pending  (27 may dispatching)
 
 ITEM: Inverters
-STATUS:  Pending
+STATUS: delivered
 
 ITEM: MMS Structure
-STATUS: Pending
+STATUS: delivered
 
 ITEM: ACDB Panels
 STATUS: Pending
 
 ITEM: DC Cable
-STATUS: Pending
+STATUS: delivered
 
 ITEM: AC Cable
-STATUS: Pending
+STATUS: Delivered
 
 ITEM: Walkway Material
-STATUS:  Pending
+STATUS:  delivered
 
 ITEM: Earthing Material
-STATUS: Pending
+STATUS: delivered
 
 ITEM: Safety Life Line
-STATUS:  Pending
+STATUS: pending (customer scope)
 
-ITEM: Waterline / Sprinkler
-STATUS:  Pending
+ITEM: Waterline 
+STATUS: delivered
 
 ITEM: Other BOS
-STATUS:  Pending
+STATUS:  delivered
 ==================================================
 ERECTION_PROGRESS
 ==================================================
@@ -251,92 +272,24 @@ Shutdown support and HOTO activities included.
 CLIENT_SCOPE
 ==================================================
 
-Client to provide shutdown support
-during synchronization activities.
-
-Client to arrange roof access permission
-and safety clearance.
-
-Client to provide DG synchronization panel
-interface support.
-
-Client to arrange power shutdown
-for testing activities.
-
-Roof access ladder  .
-
-Hand rail  .
-
-Advance 20%  .
-
 ==================================================
 CRITICAL_TASKS
 ==================================================
 
-TASK: Inverter Delivery Delay
-STATUS: Critical
 
-TASK: Shutdown Approval Pending
-STATUS: Critical
-
-TASK: Walkway Material Shortage
-STATUS: Critical
-
-TASK: DG Sync Integration Pending
-STATUS: Critical
 
 ==================================================
 SITE_ISSUES
 ==================================================
 
-ISSUE: Roof access restriction
-STATUS: Open
-
-ISSUE: Material shifting delay
-STATUS: Open
-
-ISSUE: Rain affecting installation
-STATUS: Monitoring
-
-ISSUE: Limited shutdown window
-STATUS: Critical
 
 ==================================================
 MANAGEMENT_ATTENTION
 ==================================================
 
-ISSUE: Additional manpower required
-STATUS: Approval Needed
 
-ISSUE: Vendor payment release
-STATUS: Urgent
-
-ISSUE: Client shutdown escalation
-STATUS: High Priority
-
-ISSUE: Synchronization support
-STATUS: Immediate Attention
 
 ==================================================
 PENDING_TASKS
 ==================================================
 
-TASK: ACDB Approval
-OWNER: Electrical Team
-DUE_DATE: 20 May 2025
-
-TASK: Inverter Dispatch
-OWNER: SCM
-DUE_DATE: 18 May 2025
-
-TASK: CEIG Drawing Submission
-OWNER: Design Team
-DUE_DATE: 22 May 2025
-
-TASK: Walkway Material Delivery
-OWNER: Procurement
-DUE_DATE: 24 May 2025
-
-TASK: Roof Clearance
-OWNER: Site Team
-DUE_DATE: 21 May 2025
