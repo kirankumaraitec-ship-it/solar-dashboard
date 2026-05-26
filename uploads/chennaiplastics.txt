@@ -11,6 +11,29 @@ PROJECT_VALUE:
 TOTAL_PAYMENT_RECEIVED:
 
 ==================================================
+CURRENT_STATUS_REMARKS
+==================================================
+
+REMARK: SITE Ready to start Work 
+REMARK :Client Completed HAND Rail and Ladder work 
+
+==================================================
+PROJECT_DETAILS
+==================================================
+
+Evolve - Module Supply ( 640 Wp )
+Evolve - Inverter Supply 
+
+
+==================================================
+CLIENT_SCOPE_OF_WORK
+==================================================
+Shutdown Support
+Handrail 
+Ladder
+
+
+==================================================
 ENGINEERING
 ==================================================
 
@@ -41,18 +64,15 @@ STATUS: Completed
 ITEM: Procurement Approvals
 STATUS: Pending 
 
+ITEM: BOM 
+STATUS:  Pending
+
 
 ==================================================
 PROCUREMENT
 ==================================================
 
-ITEM: Handrail
-STATUS: customer ordered
-
-ITEM: skylight Mesh -NA
-STATUS: pending
-
-ITEM: I&C ORDER
+ITEM: I&C ORDER Released
 STATUS: pending
 
 ITEM: Solar Modules
@@ -84,7 +104,7 @@ ITEM: Lightning Arrestor
 STATUS:  ordered
 
 ITEM: Other BOS
-STATUS:pending
+STATUS: pending
 
 
 ITEM: Waterline / Sprinkler
@@ -257,86 +277,25 @@ Shutdown support and HOTO activities included.
 CLIENT_SCOPE
 ==================================================
 
-Client to provide shutdown support
-during synchronization activities.
 
-Client to arrange roof access permission
-and safety clearance.
-
-Client to provide DG synchronization panel
-interface support.
-
-Client to arrange power shutdown
-for testing activities.
 
 ==================================================
 CRITICAL_TASKS
 ==================================================
 
-TASK: Inverter Delivery Delay
-STATUS: Critical
-
-TASK: Shutdown Approval Pending
-STATUS: Critical
-
-TASK: Walkway Material Shortage
-STATUS: Critical
-
-TASK: DG Sync Integration Pending
-STATUS: Critical
 
 ==================================================
 SITE_ISSUES
 ==================================================
 
-ISSUE: Roof access restriction
-STATUS: Open
 
-ISSUE: Material shifting delay
-STATUS: Open
-
-ISSUE: Rain affecting installation
-STATUS: Monitoring
-
-ISSUE: Limited shutdown window
-STATUS: Critical
 
 ==================================================
 MANAGEMENT_ATTENTION
 ==================================================
 
-ISSUE: Additional manpower required
-STATUS: Approval Needed
-
-ISSUE: Vendor payment release
-STATUS: Urgent
-
-ISSUE: Client shutdown escalation
-STATUS: High Priority
-
-ISSUE: Synchronization support
-STATUS: Immediate Attention
 
 ==================================================
 PENDING_TASKS
 ==================================================
 
-TASK: ACDB Approval
-OWNER: Electrical Team
-DUE_DATE: 20 May 2025
-
-TASK: Inverter Dispatch
-OWNER: SCM
-DUE_DATE: 18 May 2025
-
-TASK: CEIG Drawing Submission
-OWNER: Design Team
-DUE_DATE: 22 May 2025
-
-TASK: Walkway Material Delivery
-OWNER: Procurement
-DUE_DATE: 24 May 2025
-
-TASK: Roof Clearance
-OWNER: Site Team
-DUE_DATE: 21 May 2025
