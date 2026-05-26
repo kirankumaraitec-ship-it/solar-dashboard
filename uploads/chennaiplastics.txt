@@ -64,7 +64,7 @@ STATUS: Completed
 ITEM: Procurement Approvals
 STATUS: Pending 
 
-ITEM: BOM 
+ITEM: BOM Approval (RVS)
 STATUS:  Pending
 
 
