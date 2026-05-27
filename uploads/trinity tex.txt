@@ -11,6 +11,31 @@ PROJECT_VALUE:
 TOTAL_PAYMENT_RECEIVED:
 
 ==================================================
+CURRENT_STATUS_REMARKS
+==================================================
+
+REMARK: MMS & Module Mounting Completed
+REMARK: 
+REMARK: 
+REMARKS: 
+
+
+==================================================
+PROJECT_DETAILS
+==================================================
+
+Evolve - Module Supply ( 640 Wp )
+Evolve - Inverter Supply ( 60 kva )
+BOS - Outsourced to Anor Team 
+
+
+==================================================
+CLIENT_SCOPE_OF_WORK
+==================================================
+Shutdown Support
+
+
+==================================================
 ENGINEERING
 ==================================================
 

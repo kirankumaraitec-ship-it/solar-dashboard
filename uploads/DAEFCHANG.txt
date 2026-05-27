@@ -14,7 +14,7 @@ TOTAL_PAYMENT_RECEIVED:
 CURRENT_STATUS_REMARKS
 ==================================================
 
-REMARK: 
+REMARK: Handrail work Started
 REMARK: 
 REMARK: 
 REMARKS : 
