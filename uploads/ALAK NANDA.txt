@@ -1,4 +1,4 @@
-PROJECT_NAME: ALAK NANDA 2000KWP
+PROJECT_NAME: ALAK NANDA 2000KWP ( OPEX)
 PROJECT_ID: RTS-001
 
 SALES_PERSON: 
@@ -9,6 +9,28 @@ LAST_UPDATE:
 
 PROJECT_VALUE:
 TOTAL_PAYMENT_RECEIVED:
+
+==================================================
+CURRENT_STATUS_REMARKS
+==================================================
+
+REMARK: Module Installation work in progress
+
+
+==================================================
+PROJECT_DETAILS
+==================================================
+
+Evolve - Module Supply
+Evolve - Inverter Supply
+BOS - Outsourced with Installation ( (NET ZERO BHARATH)
+
+==================================================
+CLIENT_SCOPE_OF_WORK
+==================================================
+
+Shutdown Support
+
 
 ==================================================
 ENGINEERING
@@ -46,15 +68,6 @@ STATUS: Completed
 PROCUREMENT
 ==================================================
 
-ITEM: Handrail
-STATUS:   ordered
-
-ITEM: skylight Mesh -NA
-STATUS:   ordered
-
-ITEM: I&C ORDER
-STATUS: ordered
-
 ITEM: Solar Modules
 STATUS: ordered
 
@@ -63,33 +76,6 @@ STATUS: ordered
 
 ITEM: MMS Structure
 STATUS: ordered
-
-ITEM: ACDB
-STATUS:  ordered
-
-ITEM: AC Cables
-STATUS: ordered
-
-ITEM: DC Cables
-STATUS: ordered
-
-
-ITEM: Earthing Material
-STATUS: ordered
-
-ITEM: Walkway Material
-STATUS: ordered
-
-ITEM: Lightning Arrestor
-STATUS: ordered
-
-ITEM: Other BOS
-STATUS: ordered
-
-ITEM: Waterline / Sprinkler
-STATUS:   ordered
-
-
 
 ==================================================
 DELIVERY
@@ -108,25 +94,25 @@ ITEM: ACDB Panels
 STATUS: PENDING (50 PERCENT DISPATCHED)
 
 ITEM: DC Cable
-STATUS:  Delivered
+STATUS:  PENDING
 
 ITEM: AC Cable
-STATUS: Delivered
+STATUS: PENDING
 
 ITEM: Walkway Material
-STATUS:  Delivered
+STATUS:  PENDING
 
 ITEM: Earthing Material
-STATUS:  Delivered
+STATUS:  PENDING
 
 ITEM: Safety Life Line
-STATUS:  Delivered
+STATUS:  PENDING
 
 ITEM: Waterline / Sprinkler
-STATUS:  Delivered
+STATUS: PENDING
 
 ITEM: Other BOS
-STATUS: Delivered (NET ZERO BHARATH)
+STATUS: PENDING (NET ZERO BHARATH)
 ==================================================
 ERECTION_PROGRESS
 ==================================================
@@ -257,54 +243,23 @@ Shutdown support and HOTO activities included.
 ==================================================
 CLIENT_SCOPE
 ==================================================
-HANDRAIL .
-SKYLIGHT.
+
 
 ==================================================
 CRITICAL_TASKS
 ==================================================
 
-TASK: Inverter Delivery Delay
-STATUS: Critical
 
-TASK: Shutdown Approval Pending
-STATUS: Critical
-
-TASK: Walkway Material Shortage
-STATUS: Critical
-
-TASK: DG Sync Integration Pending
-STATUS: Critical
 
 ==================================================
 SITE_ISSUES
 ==================================================
 
-ISSUE: Roof access restriction
-STATUS: Open
 
-ISSUE: Material shifting delay
-STATUS: Open
-
-ISSUE: Rain affecting installation
-STATUS: Monitoring
-
-ISSUE: Limited shutdown window
-STATUS: Critical
 
 ==================================================
 MANAGEMENT_ATTENTION
 ==================================================
 
-ISSUE: Additional manpower required
-STATUS: Approval Needed
 
-ISSUE: Vendor payment release
-STATUS: Urgent
-
-ISSUE: Client shutdown escalation
-STATUS: High Priority
-
-ISSUE: Synchronization support
-STATUS: Immediate Attention
 
