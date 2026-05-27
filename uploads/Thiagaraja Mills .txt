@@ -1,4 +1,4 @@
-PROJECT_NAME: SRI KRISHNA MILLS 1500KWP
+PROJECT_NAME: PONDY OXIDES 1434 KWP ( CAPEX )
 PROJECT_ID: RTS-001
 
 SALES_PERSON: 
@@ -9,30 +9,26 @@ LAST_UPDATE:
 
 PROJECT_VALUE:
 TOTAL_PAYMENT_RECEIVED:
+
 ==================================================
 CURRENT_STATUS_REMARKS
 ==================================================
 
-REMARK: Module Intallation Under Progress
-REMARK:
-REMARK: 
-REMARKS : 
-
+REMARK: BOM FINALIZATION IN PROGRESS.
 
 ==================================================
 PROJECT_DETAILS
 ==================================================
 
-Evolve - Module Supply 
-Evolve - Inverter Supply
-BOS - Outsourced with Instalaltion
-
+Evolve - Module Supply ( 640 Wp )
+Evolve - Inverter Supply ( 110 KVA * 10 NOS)
+MAJOR - Hand Rail  
 
 ==================================================
 CLIENT_SCOPE_OF_WORK
 ==================================================
 Shutdown Support
-
+ladder
 
 ==================================================
 ENGINEERING
@@ -56,33 +52,66 @@ STATUS: Completed
 ITEM: Walkway Layout
 STATUS: Completed
 
-ITEM: Water Line Layout
+ITEM: Sprinkler
 STATUS: Completed
 
 ITEM: BOM 
 STATUS: Completed
 
-ITEM: Procurement Approvals
+ITEM: Technical Approvals
 STATUS: Pending
+
+ITEM: BOM Approval 
+STATUS: Completed
+
 
 
 ==================================================
 PROCUREMENT
 ==================================================
 
-ITEM: Handrail
-STATUS:   ordered
-
+ITEM: I&C ORDER 
+STATUS: Pending
 
 ITEM: Solar Modules
-STATUS: ordered
+STATUS: Pending
 
 ITEM: Inverters
-STATUS: ordered
+STATUS: Pending
 
-ITEM: Other BOS Outsorced
-STATUS: ordered
 
+ITEM: MMS Structure
+STATUS: Pending
+
+
+ITEM: ACDB
+STATUS: Pending
+
+
+ITEM: AC Cables
+STATUS: Pending
+
+
+ITEM: DC Cables
+STATUS: Pending
+
+
+ITEM: Earthing Material
+STATUS: Pending
+
+
+ITEM: Walkway Material
+STATUS: Pending
+
+
+ITEM: Lightning Arrestor
+STATUS: Pending
+
+ITEM: Other BOS
+STATUS: Pending
+
+ITEM: Waterline / Sprinkler
+STATUS: Pending
 
 
 
@@ -91,93 +120,97 @@ DELIVERY
 ==================================================
 
 ITEM: Solar Modules
-STATUS:  Delivered
+STATUS: Pending
 
 ITEM: Inverters
-STATUS:   Delivered
+STATUS:  Pending
 
 ITEM: MMS Structure
-STATUS:  Delivered
+STATUS: Pending
 
 ITEM: ACDB Panels
-STATUS: pending
+STATUS: Pending
+
 
 ITEM: DC Cable
-STATUS:  pending
-
+STATUS:  Pending
 
 ITEM: AC Cable
-STATUS: pending
+STATUS: Pending
 
 
 ITEM: Walkway Material
-STATUS:  pending
+STATUS:  Pending
 
 
 ITEM: Earthing Material
-STATUS:  pending
+STATUS: Pending
 
 ITEM: Safety Life Line
-STATUS:  pending
+STATUS:  Pending
+
 
 ITEM: Waterline / Sprinkler
-STATUS:  pending
+STATUS: Pending
 
 
 ITEM: Other BOS
-STATUS: pending
+STATUS: Pending
 
 ==================================================
 ERECTION_PROGRESS
 ==================================================
-
-CATEGORY: Handrail Installation
-PROGRESS: 100
-STATUS: completed
-
 CATEGORY: Structure Installation
-PROGRESS: 80
-STATUS: completed
+PROGRESS: 0
+STATUS: Pending
 
 CATEGORY: Module Installation
-PROGRESS: 50
-STATUS: completed
+PROGRESS: 0
+STATUS: Pending
+
 
 CATEGORY: Walkway Installation
-PROGRESS: 50
-STATUS: completed
+PROGRESS: 0
+STATUS: Pending
+
 
 CATEGORY: DC Cable Laying
 PROGRESS: 0
-STATUS: completed
+STATUS: Pending
+
 
 CATEGORY: Safety Line Installation
 PROGRESS: 0
-STATUS: completed
+STATUS: Pending
+
 
 CATEGORY: Waterline/Sprinkler Installation
 PROGRESS: 0
-STATUS: completed
+STATUS: Pending
+
 
 CATEGORY: AC Cable Laying
 PROGRESS: 0
-STATUS: completed
+STATUS: Pending
+
 
 CATEGORY: Earthing Work
 PROGRESS: 0
-STATUS: completed
+STATUS: Pending
+
 
 CATEGORY: Inverter Installation
 PROGRESS: 0
-STATUS:  completed
+STATUS:  Pending
 
 CATEGORY: ACDB Installation
 PROGRESS: 0
-STATUS: completed
+STATUS: Pending
 
 CATEGORY: Lightning Protection
 PROGRESS:0
-STATUS: completed
+STATUS: Pending
+
 
 CATEGORY: Cable Termination Work
 PROGRESS: 0
@@ -196,23 +229,25 @@ LIASONING
 ==================================================
 
 ITEM: CEIG Approval
-STATUS: In Progress
+STATUS: pending
 
 ITEM: Net Meter Approval
-STATUS: Pending
+STATUS: pending
+
 
 ITEM: DISCOM Coordination
-STATUS: In Progress
+STATUS: pending
 
 ITEM: Synchronization Approval
-STATUS: Not Started
+STATUS: pending
+
 
 ITEM: Net Meter Installation 
-STATUS: Awaiting Schedule
+STATUS: pending
 
 
 ITEM: Final Approval Document to client 
-STATUS: Awaiting Schedule
+STATUS: pending
 
 ==================================================
 HOTO
@@ -244,8 +279,6 @@ ACDB, DCDB and complete cabling system.
 Complete earthing, lightning protection,
 walkway arrangement and synchronization support.
 
-HANDRAIL , SKYLIGHT.
-
 Net Metering documentation,
 CEIG approval coordination,
 Shutdown support and HOTO activities included.
@@ -258,16 +291,15 @@ CLIENT_SCOPE
 CRITICAL_TASKS
 ==================================================
 
+TASK: DG Sync Integration Pending
+STATUS: Critical
 
 ==================================================
 SITE_ISSUES
 ==================================================
 
 
-
 ==================================================
 MANAGEMENT_ATTENTION
 ==================================================
-
-
 
