@@ -14,9 +14,9 @@ TOTAL_PAYMENT_RECEIVED:
 CURRENT STATUS REMARKS
 ==================================================
 
-REMARK: Final Termination Pending
-
-REMARK: Balance 120 Panels to be implemented with BESS
+REMARK: Final Termination Pending .
+REMARK: Balance 120 Panels to be implemented with BESS .
+REMARK: Solar Generation Pending.
 
 ==================================================
 PROJECT DETAILS

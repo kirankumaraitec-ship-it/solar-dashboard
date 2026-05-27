@@ -10,6 +10,29 @@ LAST_UPDATE:
 PROJECT_VALUE:
 TOTAL_PAYMENT_RECEIVED:
 
+
+==================================================
+CURRENT_STATUS_REMARKS
+==================================================
+
+REMARK: Charging Of the Plant Completed 
+REMARK: Punch point work Incomplete
+REMARK: Net Metering Incomplete
+
+==================================================
+PROJECT_DETAILS
+==================================================
+
+Evolve - Module Supply ( 565 Wp )
+Evolve - Inverter Supply ( 75 x 2 nos ) ( 200 DC 150 AC )
+
+
+==================================================
+CLIENT_SCOPE_OF_WORK
+==================================================
+Shutdown Support
+
+
 ==================================================
 ENGINEERING
 ==================================================
