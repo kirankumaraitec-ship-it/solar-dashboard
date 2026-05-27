@@ -11,15 +11,15 @@ PROJECT_VALUE:
 TOTAL_PAYMENT_RECEIVED:
 
 ==================================================
-CURRENT STATUS REMARKS
+CURRENT_STATUS_REMARKS
 ==================================================
 
 REMARK: Final Termination Pending .
 REMARK: Balance 120 Panels to be implemented with BESS .
-REMARK: Solar Generation Pending.
+REMARK: Solar Generation meter Pending.
 
 ==================================================
-PROJECT DETAILS
+PROJECT_DETAILS
 ==================================================
 
 Evolve - Module Supply

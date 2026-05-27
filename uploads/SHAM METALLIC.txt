@@ -1,4 +1,4 @@
-PROJECT_NAME: SHAM METALLIC 3000KWP (opex)
+PROJECT_NAME: SHAM METALLIC 3000KWP (OPEX)
 PROJECT_ID: RTS-001
 
 SALES_PERSON: 
@@ -105,7 +105,7 @@ ITEM: MMS Structure
 STATUS:  Delivered
 
 ITEM: ACDB Panels
-STATUS:Delivered
+STATUS: Delivered
 
 ITEM: DC Cable
 STATUS:  Delivered
@@ -144,16 +144,16 @@ PROGRESS: 100
 STATUS: completed
 
 CATEGORY: Module Installation
-PROGRESS: 100
+PROGRESS: 90
 STATUS: completed
 
 CATEGORY: Walkway Installation
-PROGRESS: 100
+PROGRESS: 90
 STATUS: completed
 
 CATEGORY: DC Cable Laying
 PROGRESS: 100
-STATUS:completed
+STATUS: completed
 
 CATEGORY: Safety Line Installation
 PROGRESS: 100

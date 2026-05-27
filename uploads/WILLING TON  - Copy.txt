@@ -154,14 +154,6 @@ STATUS: Delivered
 ERECTION_PROGRESS
 ==================================================
 
-CATEGORY: Handrail Installation
-PROGRESS: 100
-STATUS: completed
-
-CATEGORY: Skylight Mesh Work
-PROGRESS: 100
-STATUS: completed
-
 CATEGORY: Structure Installation
 PROGRESS: 100
 STATUS: completed
@@ -176,7 +168,7 @@ STATUS: completed
 
 CATEGORY: DC Cable Laying
 PROGRESS: 100
-STATUS:completed
+STATUS: completed
 
 CATEGORY: Safety Line Installation
 PROGRESS: 100
@@ -221,10 +213,6 @@ STATUS: completed
 ==================================================
 LIASONING
 ==================================================
-
-ITEM: CEIG Approval
-STATUS: In Progress
-
 ITEM: Net Meter Approval
 STATUS: Pending
 

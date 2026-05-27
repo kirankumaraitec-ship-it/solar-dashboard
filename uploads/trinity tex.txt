@@ -164,7 +164,7 @@ PROGRESS: 100
 STATUS: not started
 
 CATEGORY: Walkway Installation
-PROGRESS: 80
+PROGRESS: 100
 STATUS: completed
 
 CATEGORY: DC Cable Laying
@@ -215,34 +215,10 @@ STATUS: not started
 LIASONING
 ==================================================
 
-ITEM: Documentation 
-STATUS: completed
-
-ITEM: Registration 
-STATUS: completed
-
-ITEM: Drawing Approval
-STATUS: Awaiting Schedule
-
-ITEM: Inspection
-STATUS: Awaiting Schedule
-
-ITEM: Completion Report
-STATUS: Awaiting Schedule
+ITEM: CUSTOMER SCOPE 
+STATUS: pending
 
 
-ITEM: Defect Report
-STATUS: Awaiting Schedule
-
-ITEM: Rectification Report
-STATUS: Not Started
-
-ITEM: Safety Certificate Obtained 
-STATUS: Awaiting Schedule
-
-
-ITEM: Tangedco Net Metering 
-STATUS: Awaiting Schedule
 
 ==================================================
 HOTO
@@ -283,54 +259,22 @@ Shutdown support and HOTO activities included.
 ==================================================
 CLIENT_SCOPE
 ==================================================
-HANDRAIL .
-SKYLIGHT.
+Hand Rail 
 
 ==================================================
 CRITICAL_TASKS
 ==================================================
 
-TASK: Inverter Delivery Delay
-STATUS: Critical
 
-TASK: Shutdown Approval Pending
-STATUS: Critical
-
-TASK: Walkway Material Shortage
-STATUS: Critical
-
-TASK: DG Sync Integration Pending
-STATUS: Critical
 
 ==================================================
 SITE_ISSUES
 ==================================================
 
-ISSUE: Roof access restriction
-STATUS: Open
 
-ISSUE: Material shifting delay
-STATUS: Open
-
-ISSUE: Rain affecting installation
-STATUS: Monitoring
-
-ISSUE: Limited shutdown window
-STATUS: Critical
 
 ==================================================
 MANAGEMENT_ATTENTION
 ==================================================
 
-ISSUE: Additional manpower required
-STATUS: Approval Needed
-
-ISSUE: Vendor payment release
-STATUS: Urgent
-
-ISSUE: Client shutdown escalation
-STATUS: High Priority
-
-ISSUE: Synchronization support
-STATUS: Immediate Attention
 
